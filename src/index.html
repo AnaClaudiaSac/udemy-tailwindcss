@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Tailwind CSS</title>
+</head>
+
+<body>
+
+
+  <!-- Exercício -->
+
+  <div class="container bg-emerald-600 md:bg-blue-800">
+    <p>Exercício 1</p>
+  </div>
+  <div class="container bg-fuchsia-400 border-fuchsia-800 border-2 m-4 box-border p-10">
+    <p class="text-fuchsia-900">Border-box</p>
+  </div>
+  <div class="container bg-cyan-600 border-b-cyan-800 border-2 m-4 box-content p-10">
+    <p>Box-content</p>
+  </div>
+
+  <!-- Display-->
+
+  <div class="container">
+    <span class="block bg-red-400">Não são elementos de bloco</span>
+    <span class="block bg-red-400">Não são elementos de bloco</span>
+    <div class="bg-blue-600 inline-block">Block</div>
+    <div class="bg-blue-600 inline-block">Block</div>
+    <div class="bg-green-800 hidden">Estou aparecendo</div>
+  </div>
+
+  <!--Exercício 2-->
+
+  <div class="container bg-red-200 m-8 p-8">
+    <div class="bg-red-300 inline-block">Div 1</div>
+    <div class="bg-red-500 inline-block">Div 2</div>
+    <div class="bg-red-700 inline-block">Div 3</div>
+  </div>
+
+  <!--float and clearfix-->
+  <div class="bg-gray-600 float-right">Float right</div>
+  <div class="bg-gray-800 text-white float-left">Float left</div>
+  <div class="clear-start"></div>
+  <div class="bg-gray-800 text-white float-left">Float left</div>
+  <div class="bg-gray-600 float-right">Float right</div>
+
+  <!--Overflow - controla scroll-->
+  <div class="overflow-hidden h-16 m-12 bg-fuchsia-400">
+    <p>Testando overflow - HIDDEN</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+
+  </div>
+
+  <div class="overflow-auto h-16 m-12 bg-blue-400">
+    <p>Testando overflow - AUTO</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+
+  </div>
+
+  <div class="overflow-x-auto h-16 m-12 bg-green-400">
+    OVERFLOW X AUTO
+    Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+  </div>
+
+
+  <div class="overflow-y-auto h-16 m-12 bg-emerald-200">
+    <p>Testando overflow - OVERFLOW Y AUTO</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+    <p>Testando overflow</p>
+  </div>
+
+  <!--Posições-->
+
+
+  <div class="relative bg-pink-500">
+    relative
+    <div class="absolute top-0 right-0 bg-pink-900">
+      Absolute
+    </div>
+  </div>
+
+  <!--Exercício 3-->
+
+  <h2 class="m-10 text-rose-800 text-2xl">Exercício 3 </h2>
+  <div class="relative container m-10 h-20 bg-rose-400">
+    Container
+    <div class="absolute bottom-0 right-0 bg-rose-600">Div
+    </div>
+  </div>
+
+  <!--Visibility-->
+  <div class="container bg-teal-600 m-10">
+    <p>Estou oculto ou não estou?</p>
+    <p>Visibility or Invisible or None</p>
+    <p>None tira a class toda os outras só ficam ocultos</p>
+
+  </div>
+
+  <!--Z-index-->
+
+
+  <div class="container relative">
+    <div class="bg-red-300 h-20 p-6 absolute z-10">Na frente</div>
+    <div class="bg-red-600 h-20 p-6 absolute m-4 ">Atrássss</div>
+  </div>
+
+
+</body>
+
+
+
+
+</html>
